@@ -1,0 +1,8 @@
+env:
+- name: DEPLOY_NAMESPACE
+  value: shahtest1-staging
+pipelineConfig:
+  env:
+  - name: DEPLOY_NAMESPACE
+    value: shahtest1-staging
+  pipelines: {}
